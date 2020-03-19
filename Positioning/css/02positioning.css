@@ -1,0 +1,39 @@
+
+article {
+  width: 500px;
+  margin: auto;
+  vertical-align: middle;
+  max-width: 100em;
+  padding: 2em;
+  background-color: rgb(226, 224, 224);
+  font-size: small;
+}
+
+.float-left {
+  margin-right: 1.5em;
+  margin-bottom: .5em;
+  float: left;
+  width: 130px;
+  height: 190px;
+  background: rgb(244, 248, 5);
+  position: relative;
+}
+
+.float-right {
+  margin-left: 2em;
+  /*margin-bottom: 2em;*/
+  float: right;
+  width: 130px;
+  height: 190px;
+  background: rgb(244, 248, 5);
+  position: relative;
+}
+
+
+
+
+
+
+
+ 
+

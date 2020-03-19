@@ -1,0 +1,84 @@
+body {
+  background-color: #DCDCDC;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 4px solid black;
+  border-style: solid;
+  overflow: auto;
+}
+
+div {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: medium;
+  color: #808080;
+  line-height: 120px;
+  font-family: sans-serif;
+  position: relative;
+  margin: 0, auto;
+}
+
+.red-text {
+  color:  red;
+  font-size: 3em;
+}
+
+.first-square {
+  background-color: #FBCEB1;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.second-square {
+  background-color: #00FFFF;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.third-square {
+  background-color: #7FFFD4;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.fourth-square {
+  background-color: #ffffff;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.fifth-square {
+  background-color: #FFFACD;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.float-right {
+  float: right;
+  position: relative;
+}
+
+.float-left {
+  float: left;
+  position: relative;
+}
+
+.relative {
+  position: relative;
+  top: 60px;
+  left: 60px; 
+}
