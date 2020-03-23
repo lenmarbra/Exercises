@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(223, 222, 222);
+  font-family: sans-serif;
+  font-size: small;
+}
+.navred{
+  background-color: pink;
+  height: 40%;
+  width: 50em;
+  margin: 24em;
+  list-style: none;
+}
+
+.item{
+ padding: 1em;
+ color: red;
+ border-left: 1px solid red;
+}
+
+.item:nth-item(1){
+  border-left: 0;
+}
+
+
+.item a {
+  color: red;
+}
+
+
+/******* Utility Classes ***** */
+.center{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
